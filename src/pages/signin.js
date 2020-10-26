@@ -1,9 +1,12 @@
 import React from 'react'
+import ScrollToTop from '../components/ScrollToTop';
+import SignIn from '../components/Signin'
 
 const SigninPage = () => {
     return (
        <>
-       <h1>gewg</h1>
+       <ScrollToTop/>
+        <SignIn />
        </>
     )
 }
